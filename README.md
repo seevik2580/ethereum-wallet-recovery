@@ -1,5 +1,5 @@
 # louskac
-ethereum wallet recovery password tool, based on pyethrecover modified by me for using keystore v3 json file to help recover your lost password if you know some phrases using both brute and wordlist technique, start + end words, whole ascii or just numbers
+ethereum wallet recovery password tool, baked from [pyethrecover] (https://github.com/burjorjee/pyethrecover) and [pyethereum](https://github.com/ethereum/pyethereum) by me [Seva](Jan Ševčík) for using keystore v3 json file to help recover your lost password if you know some phrases using both brute and wordlist technique, start + end words, whole ascii or just numbers
 
 ## requirements:
 - Linux / Windows 10 Anniversary Update with Bash Ubuntu enabled.
