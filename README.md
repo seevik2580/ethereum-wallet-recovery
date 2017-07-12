@@ -84,3 +84,4 @@ every print and option in czech language, maybe in future i will translate it to
   - ETH 0xbE21D03301Bddc67BEA7675f9cCCE0Ff2380F912
   - ZEC t1ZFXmknFJEwYrbDm2jX5PZN8wHkQUDvDjD
   - BTC 1GkSbMeQ7LioxdMpomJdUo2XRWKK572kg9
+
