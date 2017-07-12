@@ -10,7 +10,12 @@ sudo pip install pbkdf2 rlp ethereum joblib
 
 ## usage:
 
-1. python louskac.py  #eth wallet password tester
+1. python generuj.py -h #wordlist generator
+    - -h                # help
+    - -s any,words      # comma separated words
+    - -v file           # words from file separated by comma
+    
+2. python louskac.py  #eth wallet password tester
     - -h                # help
     - -p file           # keystore ethereum wallet file
     - -z file           # starting words separated by line
@@ -21,7 +26,6 @@ sudo pip install pbkdf2 rlp ethereum joblib
         - ASCII         # whole ascii table
         - whatever char by char eg. 1234567890 or @#!$%^&*(
 
-2. python generuj.py -h #wordlist generator
 
 ### examples generuj.py:
  
