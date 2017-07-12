@@ -10,7 +10,7 @@ sudo pip install pbkdf2 rlp ethereum joblib
 
 ## usage:
 
-- python louskac.py  #eth wallet password tester
+1. python louskac.py  #eth wallet password tester
     -h
     -p
     -z
@@ -19,7 +19,7 @@ sudo pip install pbkdf2 rlp ethereum joblib
     -w
     -b
 
-- python generuj.py -h #wordlist generator
+2. python generuj.py -h #wordlist generator
 
 ### examples generuj.py:
  
