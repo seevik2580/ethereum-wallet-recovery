@@ -238,3 +238,4 @@ def privtoaddr(x):
     if len(x) > 32:
         x = decode_hex(x)
     return sha3(bitcoin.privtopub(x)[1:])[12:]
+
