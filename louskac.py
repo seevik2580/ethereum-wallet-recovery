@@ -25,7 +25,6 @@ group.add_argument("-b", "--brute", type=str, required=False, help="cisla / pism
 parser.add_argument("-d", "--delka", type=int, required=False, help="delka opakujicich se znaku")
 parser.add_argument("-k", "--koncovysoubor", type=str, required=False, help="soubor s koncovymi znaky")
 parser.add_argument("-z", "--zacatecnisoubor", type=str, required=False, help="soubor s zacatecnimi znaky")
-parser.add_argument("-g", "--generujwordlist", type=str, required=False, help="vygeneruj wordlist slozeny ze slov")
 args = parser.parse_args()        
 
 if args.brute is not None:
