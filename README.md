@@ -11,9 +11,6 @@ sudo apt-get install python-pip python-dev libssl-dev build-essential automake p
 ## python modules to require:
 sudo pip install pbkdf2 rlp ethereum joblib
 
-### uploaded test dummy wallet for test purposes, password:
-# theAnswerToLifeUniverseAndEverythingIs42
-
 ## usage:
 
 1. python generuj.py -h #wordlist generator
@@ -32,6 +29,8 @@ sudo pip install pbkdf2 rlp ethereum joblib
         - ASCII         # whole ascii table
         - whatever char by char eg. 1234567890 or @#!$%^&*(
 
+### uploaded test dummy wallet for test purposes, password:
+# theAnswerToLifeUniverseAndEverythingIs42
 
 ### examples generuj.py:
  
