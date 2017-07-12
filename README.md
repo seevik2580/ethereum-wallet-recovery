@@ -28,6 +28,7 @@ sudo pip install pbkdf2 rlp ethereum joblib
     - -b arg            # bruteforce type
         - ASCII         # whole ascii table
         - whatever char by char eg. 1234567890 or @#!$%^&*(
+    - -d N              # bruteforce character leght
 
 ### uploaded test dummy wallet for test purposes, password:
 # theAnswerToLifeUniverseAndEverythingIs42
