@@ -65,7 +65,6 @@ if __name__=='__main__':
         slova=f.readline()
         
     while not myfile.finished:
-        slova=f
         maxpocet=len(slova.split(","))
         for pocet in xrange(maxpocet+1):
             for group in permutations(slova.split(","), pocet):
