@@ -1,6 +1,5 @@
-# ethwallet-pwdlouskac
-based on pyethrecover modified by me for using keystore v3 json file to help recover your lost password if you know some phrases.
-using both brute and wordlist technique, start + end words, whole ascii or just numbers
+# louskac
+ethereum wallet recovery password tool, based on pyethrecover modified by me for using keystore v3 json file to help recover your lost password if you know some phrases using both brute and wordlist technique, start + end words, whole ascii or just numbers
 
 ## dependency install:
 sudo apt-get install python-pip python-dev libssl-dev build-essential automake pkg-config libtool libffi-dev libgmp-dev
