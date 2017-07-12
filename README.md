@@ -1,3 +1,14 @@
+## story
+About week ago, a friend of mine came to me and told me he forgot his password for the oldest ethereum wallet where he has plenty of eth. And he ask me if there is any solution to find password from some files or cache or anything. Because i like to code things i did read some forums and did some google things .. and found pyethrecover tool.
+But it not works, so i start to rewrite it with some founded methods how to convert it to json v3.
+Then with my friend we spend about 1 whole day to writing all words and phrases he uses in any password, then i code a wordlist generator, to combine these words and all permutations of it.
+About next two days.. 1 from 4 computers running this script with different wordlists and technique yelled out his password :)
+
+its a good feeling when you have the ability to help a friend... so i decided to make this script public to help more people in same situation.
+
+hope that somebody could use it.
+sorry for my english, and sorry for czech text in code.
+
 # louskac
 ethereum wallet recovery password multithread tool, baked from [pyethrecover](https://github.com/burjorjee/pyethrecover) and [pyethereum](https://github.com/ethereum/pyethereum), by me (Jan Ševčík) for using keystore v3 json file to help recover your lost password if you know some phrases using both brute and wordlist technique, start + end words, whole ascii or just numbers
 
@@ -12,6 +23,7 @@ sudo apt-get install python-pip python-dev libssl-dev build-essential automake p
 sudo pip install pbkdf2 rlp ethereum joblib
 
 ## usage:
+every print and option in czech language, maybe in future i will translate it to english.
 
 1. python generuj.py -h #wordlist generator
     - -h                # help
