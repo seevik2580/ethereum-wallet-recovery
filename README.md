@@ -8,7 +8,7 @@ ethereum wallet recovery password multithread tool, baked from [pyethrecover](ht
 ## dependency install:
 `sudo apt-get install python-pip python-dev libssl-dev build-essential automake pkg-config libtool libffi-dev libgmp-dev`
 
-## python modules to require:
+## python modules to require: pbkdf2 rlp ethereum joblib
 `sudo pip install pbkdf2 rlp ethereum joblib`
 
 ## usage:
