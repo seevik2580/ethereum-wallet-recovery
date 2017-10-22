@@ -44,10 +44,10 @@ every print and option in czech language, maybe in future i will translate it to
   #### makes all possible combinations of words inside file input.txt separated by comma.
   `python generuj.py -v input.txt`                
   
-  #### generate all permutations of numbers 1,2,3,4,5,6,7,8,9,0 with minimal lenght 8. less lenght size is skipped.
+  #### makes all possible combinations of numbers 1,2,3,4,5,6,7,8,9,0 with minimal lenght 8. less lenght size is skipped.
   `python generuj.py -min 8 -s "1,2,3,4,5,6,7,8,9,0"`
 
-  #### generate all permutations of numbers 1,2,3,4,5,6,7,8,9,0 with maximal lenght 4, more lenght size is skipped.
+  #### makes all possible combinations of numbers 1,2,3,4,5,6,7,8,9,0 with maximal lenght 4, more lenght size is skipped.
   `python generuj.py -max 4 -s "1,2,3,4,5,6,7,8,9,0"`
 
   - generated wordlist will be in same directory with name wordlist_01.txt. 
