@@ -61,9 +61,9 @@ if __name__=='__main__':
     print "Generuji variace hesel"
     myfile = RotatingFile(max_files=99999999)
     
-    if args.ascii is True:
-	    f="0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,!,\",#,$,%,&,',(,),*,+,-,.,/,:,;,<,=,>,?,@,[,\,],^,_,`,{,|,},~, "
-	    slova=f
+    if args.ascii is True:	
+	f="0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,!,\",#,$,%,&,',(,),*,+,-,.,/,:,;,<,=,>,?,@,[,\,],^,_,`,{,|,},~, "
+	slova=f
 	
     if args.slova is not None:
         f=args.slova
@@ -74,14 +74,14 @@ if __name__=='__main__':
         slova=f.readline()
         
     if args.minimal is None:
-	    minimal = 1
+	minimal = 1
     else:
-	    minimal = args.minimal
+	minimal = args.minimal
 
     if args.maximal is None:
-	    maximal = 64
+	maximal = 64
     else:
-    	maximal = args.maximal
+   	maximal = args.maximal
 
     while not myfile.finished:
         maxpocet=len(slova.split(","))
