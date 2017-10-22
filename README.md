@@ -18,6 +18,9 @@ every print and option in czech language, maybe in future i will translate it to
     - -h                # help
     - -s any,words      # comma separated words
     - -v file           # words from file separated by comma
+    - -a                # generate from ascii table
+    - -min number       # specify minimal generated word lenght
+    - -max number       # specify maximal generated word lenght
     
 2. `python louskac.py`  #eth wallet password tester
     - -h                # help
@@ -40,6 +43,12 @@ every print and option in czech language, maybe in future i will translate it to
   
   #### makes all possible combinations of words inside file input.txt separated by comma.
   `python generuj.py -v input.txt`                
+  
+  #### generate all permutations of numbers 1,2,3,4,5,6,7,8,9,0 with minimal lenght 8. less lenght size is skipped.
+  `python generuj.py -min 8 -s "1,2,3,4,5,6,7,8,9,0"`
+
+  #### generate all permutations of numbers 1,2,3,4,5,6,7,8,9,0 with maximal lenght 4, more lenght size is skipped.
+  `python generuj.py -max 4 -s "1,2,3,4,5,6,7,8,9,0"`
 
   - generated wordlist will be in same directory with name wordlist_01.txt. 
   - When wordlist reach maximum file size 50MB then new file will be created with next name wordlist_02.txt
