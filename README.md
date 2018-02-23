@@ -81,4 +81,4 @@ every print and option in czech language, maybe in future i will translate it to
   # donate 
   - ETH 0x9ead6a02058d461d8f7d09403c22cc278148ddfc
   - ZEC t1bVtZEM8rF5N9JY2fHNULQaaJU9LHwTCB5
-  - BTC 34ZJotxv7sP6gXaQEoxJ2p82HbVjHxRq4f
+  - BTC 3BWxLUPQCWFdwKmVZYk88zX2hajdP5ZXxF
