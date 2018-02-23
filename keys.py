@@ -9,19 +9,12 @@ try:
     scrypt = __import__('scrypt')
 except ImportError:
     sys.stderr.write("""
-Failed to import scrypt. This is not a fatal error but does
-mean that you cannot create or decrypt privkey jsons that use
-scrypt
-
 """)
     scrypt = None
 try:
     import bitcoin
 except ImportError:
     sys.stderr.write("""
-Failed to import bitcoin. This is not a fatal error but does
-mean that you will not be able to determine the address from
-your wallet file.
 """)
 import binascii
 import struct
