@@ -12,13 +12,13 @@ ethereum wallet recovery password multithread tool, baked from [pyethrecover](ht
 `sudo apt-get install python-pip python-dev libssl-dev build-essential automake pkg-config libtool libffi-dev libgmp-dev`
 
 ## python modules requirements:
--`sudo apt-get install pandoc`
--`sudo pip install setuptools --upgrade`
--`sudo pip install joblib`
--`sudo pip install pypandoc`
--`sudo pip install markdown`
--`sudo pip install rlp==0.6.0`
--`sudo pip install ethereum==2.1.5`
+- `sudo apt-get install pandoc`
+- `sudo pip install setuptools --upgrade`
+- `sudo pip install joblib`
+- `sudo pip install pypandoc`
+- `sudo pip install markdown`
+- `sudo pip install rlp==0.6.0`
+- `sudo pip install ethereum==2.1.5`
 
 ## usage:
 every print and option in czech language, maybe in future i will translate it to english.
