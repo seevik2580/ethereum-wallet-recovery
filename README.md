@@ -9,10 +9,9 @@ ethereum wallet recovery password multithread tool, baked from [pyethrecover](ht
 - python 2.7.x
  
 ## dependency install:
-`sudo apt-get install python-pip python-dev libssl-dev build-essential automake pkg-config libtool libffi-dev libgmp-dev`
+- `sudo apt-get install python-pip python-dev libssl-dev build-essential automake pkg-config libtool libffi-dev libgmp-dev pandoc`
 
 ## python modules requirements:
-- `sudo apt-get install pandoc`
 - `sudo pip install setuptools --upgrade`
 - `sudo pip install joblib`
 - `sudo pip install pypandoc`
