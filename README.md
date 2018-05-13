@@ -13,6 +13,15 @@ ethereum wallet recovery password multithread tool, baked from [pyethrecover](ht
 
 ## python modules to require: pbkdf2 rlp ethereum joblib
 `sudo pip install pbkdf2 rlp ethereum joblib`
+you will get error because some libs are not supported for python 2.7 anymore just 3.5+ but you can use oldest version of those libs.
+## fixing modules
+`sudo apt-get install pandoc`
+`sudo pip install setuptools --upgrade`
+`sudo pip install joblib`
+`sudo pip install pypandoc`
+`sudo pip install markdown`
+`sudo pip install rlp==0.6.0`
+`sudo pip install ethereum==2.1.5`
 
 ## usage:
 every print and option in czech language, maybe in future i will translate it to english.
