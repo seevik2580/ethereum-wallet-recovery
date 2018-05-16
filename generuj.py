@@ -94,8 +94,6 @@ if __name__=='__main__':
                     myfile.write("%s\n" % slovo)
                     if myfile.c % 100000 == 0:
                         print "Generuji", myfile.c,". heslo" 
-                else:
-                    break
         
         print myfile.filename_template, time.time() - myfile.time1
         print "Hotovo, vygenerovano %s kombinaci" % myfile.c
