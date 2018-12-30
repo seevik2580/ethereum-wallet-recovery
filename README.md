@@ -87,6 +87,5 @@ every print and option in czech language, maybe in future i will translate it to
   `python louskac.py -p UTC--2017-07-12T00-06-42.772050600Z--f5751c906091b98be2a6be5ce42c573d704aedab -w wordlist.txt -k end.txt`
   
   # donate 
-  - ETH 0x9ead6a02058d461d8f7d09403c22cc278148ddfc
-  - ZEC t1bVtZEM8rF5N9JY2fHNULQaaJU9LHwTCB5
-  - BTC 3BWxLUPQCWFdwKmVZYk88zX2hajdP5ZXxF
+  - ZEC t1ZFXmknFJEwYrbDm2jX5PZN8wHkQUDvDjD
+  
