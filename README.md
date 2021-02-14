@@ -35,27 +35,27 @@ pip install ethereum==2.1.5
 ## usage:
 
 ```
-python generate.py -h   #wordlist generator
-    - -h                # help
-    - -w any,words      # comma separated words
-    - -i filename       # words from file separated by comma
-    - -a                # generate from ascii table
-    - -min number       # specify minimal generated word length
-    - -max number       # specify maximal generated word length
+python generate.py    #wordlist generator
+    -h                # help
+    -w any,words      # comma separated words
+    -i filename       # words from file separated by comma
+    -a                # generate from ascii table
+    -min number       # specify minimal generated word length
+    -max number       # specify maximal generated word length
 ```
 
 ```
-python recovery.py      #eth wallet password tester
-    - -h                # help
-    - -W file           # keystore ethereum wallet file
-    - -s file           # starting words separated by line
-    - -e file           # ending words separated by line
-    - -t N              # number of threads of jobs
-    - -w file           # wordlist file
-    - -b arg            # bruteforce type
-        - ASCII         # whole ascii table
-        - whatever char by char eg. 1234567890 or @#!$%^&*(
-    - -l N              # bruteforce character length
+python recovery.py    #eth wallet password tester
+    -h                # help
+    -W file           # keystore ethereum wallet file
+    -s file           # starting words separated by line
+    -e file           # ending words separated by line
+    -t N              # number of threads of jobs
+    -w file           # wordlist file
+    -b arg            # bruteforce type
+      - ASCII         # whole ascii table
+      - whatever char by char eg. 1234567890 or @#!$%^&*(
+    -l N              # bruteforce character length
 ```
 
 ### uploaded test dummy wallet for test purposes, password:
