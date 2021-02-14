@@ -52,7 +52,7 @@ pip install ethereum==2.1.5
     - -b arg            # bruteforce type
         - ASCII         # whole ascii table
         - whatever char by char eg. 1234567890 or @#!$%^&*(
-    - -l N              # bruteforce character leght
+    - -l N              # bruteforce character length
 
 ### uploaded test dummy wallet for test purposes, password:
 # theAnswerToLifeUniverseAndEverythingIs42
