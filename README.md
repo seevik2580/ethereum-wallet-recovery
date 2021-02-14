@@ -39,8 +39,8 @@ pip install ethereum==2.1.5
     - -w any,words      # comma separated words
     - -i filename       # words from file separated by comma
     - -a                # generate from ascii table
-    - -min number       # specify minimal generated word lenght
-    - -max number       # specify maximal generated word lenght
+    - -min number       # specify minimal generated word length
+    - -max number       # specify maximal generated word length
     
 2. `python recovery.py`  #eth wallet password tester
     - -h                # help
@@ -64,10 +64,10 @@ pip install ethereum==2.1.5
   #### makes all possible combinations of words inside file input.txt separated by comma.
   `python generate.py -i input.txt`                
   
-  #### makes all possible combinations of numbers 1,2,3,4,5,6,7,8,9,0 with minimal lenght 8. less lenght size is skipped.
+  #### makes all possible combinations of numbers 1,2,3,4,5,6,7,8,9,0 with minimal length 8. less length size is skipped.
   `python generate.py -min 8 -w "1,2,3,4,5,6,7,8,9,0"`
 
-  #### makes all possible combinations of numbers 1,2,3,4,5,6,7,8,9,0 with maximal lenght 4, more lenght size is skipped.
+  #### makes all possible combinations of numbers 1,2,3,4,5,6,7,8,9,0 with maximal length 4, more length size is skipped.
   `python generate.py -max 4 -w "1,2,3,4,5,6,7,8,9,0"`
 
   - generated wordlist will be in same directory with name wordlist_01.txt. 
