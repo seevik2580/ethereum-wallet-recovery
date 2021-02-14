@@ -71,7 +71,7 @@ if __name__=='__main__':
         
     if args.inputfile is not None:
         f=open(args.inputfile)
-        slova=f.readline()
+        slova=f.readline().rstrip()
         
     if args.minimal is None:
 	minimal = 1
