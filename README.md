@@ -3,7 +3,7 @@
 ethereum wallet recovery password multithread tool, baked from [pyethrecover](https://github.com/burjorjee/pyethrecover) and [pyethereum](https://github.com/ethereum/pyethereum), for using keystore v3 json file to help recover your lost password if you know some phrases using both brute and wordlist technique, start + end words, whole ascii or just numbers
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/seevik2580/ethereum-wallet-recovery/graphs/commit-activity)
-[![HitCount](http://hits.dwyl.com/seevik2580/ethereum-wallet-recovery.svg)](http://hits.dwyl.com/seevik2580/ethereum-wallet-recovery)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fseevik2580%2Fethereum-wallet-recovery&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ## Video demonstration
 [https://www.youtube.com/watch?v=XVvLW26UPnY](https://www.youtube.com/watch?v=XVvLW26UPnY)
