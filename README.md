@@ -57,9 +57,9 @@ pip install ethereum==2.1.5
 ### uploaded test dummy wallet for test purposes, password:
 # theAnswerToLifeUniverseAndEverythingIs42
 
-### examples generuj.py:
+### examples generate.py:
   #### makes all possible combinations of words separated by comma. 
-  `python generuj.py -w "fist,second,third"`      
+  `python generate.py -w "fist,second,third"`      
   
   #### makes all possible combinations of words inside file input.txt separated by comma.
   `python generate.py -i input.txt`                
