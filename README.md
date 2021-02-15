@@ -108,6 +108,8 @@ python recovery.py    #eth wallet password tester
   `python recovery.py -W UTC--2017-07-12T00-06-42.772050600Z--f5751c906091b98be2a6be5ce42c573d704aedab -w wordlist.txt -e end.txt`
   
   # donate 
-  - ZEC t1ZFXmknFJEwYrbDm2jX5PZN8wHkQUDvDjD
   - BTC 1DkStuanmQLC9Xv4UgxbHRzhHqDwABkLfi
+  - ETH 0x48E43582fe346486Af067747992638Cf4dFaD8E4
+  - ZEC t1ZFXmknFJEwYrbDm2jX5PZN8wHkQUDvDjD
+
   
